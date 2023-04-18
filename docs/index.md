@@ -25,8 +25,8 @@ features:
         width: 15
         height: 15
     title: 关注于
-    details: Ros Matlab simulink
-    link: 'https://www.fwenqian.com'
+    details: Ros（机器人操作系统）
+    link: 'https://www.fwenqian.com/ros/'
     linkText: '了解更多'
   - icon: 
       src: https://photohosting.oss-cn-hangzhou.aliyuncs.com/captures/grimacing-face_1f62c.png

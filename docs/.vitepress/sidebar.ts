@@ -32,15 +32,15 @@ export default {
             ],
         },
         {
-            text: 'ROS2 安装与卸载',
-            collapsed: false,
+            text: '环境搭建',
+            collapsed: true,
             items: [
                 { text: 'ROS2 安装', link: '/ros/base/install' },
             ],
         },
         {
-            text: 'ROS2 通信机制核心',
-            collapsed: false,
+            text: '通信机制',
+            collapsed: true,
             items: [
                 { text: '简介', link: '/ros/base/'},
                 { text: '话题通信', link: '/ros/base/topic'},
@@ -48,7 +48,29 @@ export default {
                 { text: '动作通信', link: 'ros/base/action'},
                 { text: '参数通信', link: 'ros/base/param'}
             ]
+        },
+        {
+            text: 'Launch',
+            collapsed: true,
+            items: [
+                { text: '引言', link: '' }
+            ]
+        },
+        {
+            text: '坐标变换',
+            collapsed: true,
+            items: [
+                { text: '引言', link: '' }
+            ]
+        },
+        {
+            text: '可视化',
+            collapsed: true,
+            items: [
+                { text: '引言', link: '' }
+            ]
         }
+        
     ],
     '/matlab/': [
         {
@@ -57,8 +79,30 @@ export default {
             ],
         },
         {
-            text: 'Matlab 基础',
-            collapsed: false,
+            text: '使用MATLAB',
+            collapsed: true,
+            items: [
+            
+            ],
+        },
+        {
+            text: '使用Simulink',
+            collapsed: true,
+            items: [
+            
+            ],
+        },
+        {
+            text: '工作流',
+            collapsed: true,
+            items: [
+            
+            ],
+        },
+        {
+            text: '应用',
+            collapsible: true,
+            collapsed: true,
             items: [
             
             ],
@@ -71,11 +115,11 @@ export default {
             ]
         },
         {
-            text: 'windows',
-            collapsible: false,
-            collapsed: false,
+            text: '在线资源链接',
+            collapsible: true,
+            collapsed: true,
             items: [
-                { text: '' }
+                { text: '工具链接', link: '/download/guide/' }
             ]
         },
         {
@@ -93,7 +137,7 @@ export default {
         },
         {
             text: '视觉生命',
-            collapsed: false,
+            collapsed: true,
             items: [
                 { text: '初衷', link: '' },
                 { text: '', link: '' }
@@ -101,7 +145,7 @@ export default {
         },
         {
             text: '校园资讯',
-            collapsed: false,
+            collapsed: true,
             items: [
                 { text: '初衷', link: '' },
                 { text: '', link: '' }
@@ -109,7 +153,7 @@ export default {
         },
         {
             text: 'Ros 无人小车',
-            collapsed: false,
+            collapsed: true,
             items: [
                 { text: '初衷', link: '' },
                 { text: '', link: '' }
@@ -125,8 +169,8 @@ export default {
         },
         {
             text: '数据结构与算法',
-            collapsible: false,
-            collapsed: false,
+            collapsible: true,
+            collapsed: true,
             items: [
                 { text: '复习c++', link: '' },
                 { text: '程序性能分析', link: '' },
@@ -143,7 +187,7 @@ export default {
         },
         {
             text: '计算机网络',
-            collapsed: false,
+            collapsed: true,
             items: [
                 { text: '关于IP', link: '/netexam/base/aboutIp' },
                 { text: '关于路由', link: '/netexam/base/aboutRoute'},
@@ -156,8 +200,8 @@ export default {
         },
         {
             text: 'Linux（Ubuntu）',
-            collapsible: false,    //是不是可以动态展开
-            collapsed: false,      //默认是不是展开
+            collapsible: true,    //是不是可以动态展开
+            collapsed: true,      //默认是不是展开
             items: []
         }
     ],

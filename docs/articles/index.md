@@ -41,7 +41,7 @@ title: 关于小锅盖儿网站
 
 
 ## 鸣谢
-<VideoLink mylink="https://chodocs.cn/" >感谢chodocs, 您做的工作对我有很大帮助</VideoLink>
+
 
 
 

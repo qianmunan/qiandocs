@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useData } from 'vitepress'
 
-const defaultAuthor = 'Qiananran'
+const defaultAuthor = 'qianmunan'
 const { frontmatter } = useData()
 
 const author = ref(defaultAuthor)
@@ -10,7 +10,7 @@ const author = ref(defaultAuthor)
 if (frontmatter.value?.author)
     author.value = frontmatter.value?.author
 
-const reName = (name: string) => name === 'qiananran' ? 'qiananran' : name
+const reName = (name: string) => name === 'qianmunan' ? 'qianmunan' : name
 
 const pageHref = location.href
 
@@ -44,7 +44,7 @@ const getGithubLink = (name: string) => `https://github.com/${reName(name)}`
                     本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noreferrer"
                         target="_blank">CC BY-NC-SA 4.0</a>
                     许可协议。转载请注明来自
-                    <a href="https://www.fwenqian.com/" rel="noreferrer" target="_blank">Qiananran</a></span>！
+                    <a href="https://www.fwenqian.com/" rel="noreferrer" target="_blank">qianmunan</a></span>！
             </div>
         </section>
     </div>
