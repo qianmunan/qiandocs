@@ -1,0 +1,37 @@
+{
+  "name": "qiandocs",
+  "version": "1.0.0",
+  "description": "my first blog",
+  "main": "index.js",
+  "repository": "git@github.com:qianmunan/qiandocs.git",
+  "author": "qiandocs",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@iconify-json/el": "^1.1.4",
+    "@iconify-json/fa6-solid": "^1.1.13",
+    "@iconify-json/ic": "^1.1.13",
+    "@iconify/json": "^2.2.51",
+    "@types/node": "^18.15.11",
+    "vite-plugin-purge-icons": "^0.9.2",
+    "vitepress": "^1.0.0-alpha.72"
+  },
+  "dependencies": {
+    "@iconify/iconify": "^3.1.0",
+    "@pzy915/vitepress-plugin-search": "^1.0.4-alpha.19-3",
+    "directory-tree": "^3.5.1",
+    "medium-zoom": "^1.0.8",
+    "postcss": "^8.4.22",
+    "postcss-nested": "^6.0.1",
+    "typescript": "^5.0.4",
+    "unocss": "^0.51.4",
+    "unplugin-icons": "^0.16.1",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.2.1",
+    "vue": "^3.2.47"
+  }
+}
