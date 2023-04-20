@@ -1,3 +1,5 @@
+import { text } from "stream/consumers";
+
 export default {
     '/': [
         {
@@ -52,14 +54,14 @@ export default {
             ],
         },
         {
-            text: '通信机制',
+            text: '通信服务',
             collapsed: true,
             items: [
-                { text: '简介', link: '/ros/base/'},
-                { text: '话题通信', link: '/ros/base/topic'},
-                { text: '服务通信', link: '/ros/base/server'},
-                { text: '动作通信', link: 'ros/base/action'},
-                { text: '参数通信', link: 'ros/base/param'}
+                { text: '简介', link: '/ros/comm/'},
+                { text: '话题通信', link: '/ros/comm/topiccomm'},
+                { text: '服务通信', link: '/ros/comm/servercomm'},
+                { text: '动作通信', link: '/ros/comm/actioncomm'},
+                { text: '参数通信', link: '/ros/comm/paramcomm'}
             ]
         },
         {
