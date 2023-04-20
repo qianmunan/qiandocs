@@ -36,6 +36,19 @@ export default {
             collapsed: true,
             items: [
                 { text: 'ROS2 安装', link: '/ros/base/install' },
+                { text: 'ROS2 验证', link: '/ros/base/validation'},
+                { text: 'ROS2 集成开发环境', link: '/ros/base/integration'},
+                { text: 'ROS2 初体验', link: '/ros/base/experience'}
+            ],
+        },
+        {
+            text: '体系框架',
+            collapsed: true,
+            items: [
+                { text: '文件系统', link: '/ros/frame/fileSystem' },
+                { text: '核心模块', link: '/ros/frame/core'},
+                { text: '技术支持', link: '/ros/frame/support'},
+                { text: '应用方向', link: '/ros/frame/application'}
             ],
         },
         {
