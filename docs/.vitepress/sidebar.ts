@@ -187,37 +187,83 @@ export default {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '复习c++', link: '' },
-                { text: '程序性能分析', link: '' },
-                { text: '复杂度记法', link: '' },
-                { text: '线性表', link: '' },
-                { text: '数组和矩阵', link: '' },
-                { text: '栈', link: '' },
-                { text: '队列', link: '' },
-                { text: '跳表和散列', link: '' },
-                { text: '二叉树', link: '' },
+                { text: '简介', link: '/scattered/dataStruct/'},
+                { text: '复习c++', link: '/scattered/dataStruct/cpp' },
+                { text: '数据结构基本概念', link: '/scattered/dataStruct/concept' },
+                { text: '线性表', link: '/scattered/dataStruct/Linear' },
+                { text: '数组和矩阵', link: '/scattered/dataStruct/array' },
+                { text: '栈', link: '/scattered/dataStruct/stack' },
+                { text: '队列', link: '/scattered/dataStruct/queue' },
+                { text: '串', link: '/scattered/dataStruct/string' },
+                { text: '数组和广义表', link: '/scattered/dataStruct/' },
+                { text: '树和二叉树', link: '/scattered/dataStruct/tree' },
+                { text: '图', link: '/scattered/dataStruct/' },
+                { text: '查找', link: '/scattered/dataStruct/' },
+                { text: '内部排序', link: '' },
+                { text: '算法设计与分析', link: '' },
                 { text: '贪婪算法', link: '' },
                 { text: '分而治之', link: '' }
             ]
         },
         {
-            text: '计算机网络',
+            text: '软考中级软件设计师',
+            collapsible: true,    //是不是可以动态展开
+            collapsed: true,      //默认是不是展开
+            items: [
+                { text: '简介', link: '/scattered/softtest/' },
+                { text: '计算机组成与体系结构', link: '/scattered/softtest/computercom' },
+                { text: '操作系统基本原理', link: '/netexam/base/aboutRoute'},
+                { text: '数据库系统', link: '/netexam/base/aboutSwitche'},
+                { text: '计算机网络', link: '/netexam/base/aboutVlan'},
+                { text: '数据结构与算法', link: '/netexam/base/aboutStp'},
+                { text: '程序设计语言', link: '/netexam/base/aboutPPP'},
+                { text: '法律法规', link: '/netexam/base/aboutGarp'},
+                { text: '标准化', link: '/netexam/base/aboutIp' },
+                { text: '多媒体基础', link: '/netexam/base/aboutRoute'},
+                { text: '软件工程', link: '/netexam/base/aboutSwitche'},
+                { text: '面向对象', link: '/netexam/base/aboutVlan'},
+                { text: '数据流程图', link: '/netexam/base/aboutStp'},
+                { text: '数据库设计', link: '/netexam/base/aboutPPP'},
+                { text: 'UML建模', link: '/netexam/base/aboutGarp'},
+                { text: '数据结构与算法应用', link: '/netexam/base/aboutIp' },
+                { text: '面向对象程序设计', link: '/netexam/base/aboutRoute'}
+            ]
+        },
+        {
+            text: 'HCIA（华为数通初级认证）',
             collapsed: true,
             items: [
-                { text: '关于IP', link: '/netexam/base/aboutIp' },
-                { text: '关于路由', link: '/netexam/base/aboutRoute'},
-                { text: '关于交换机', link: '/netexam/base/aboutSwitche'},
-                { text: '关于VLAN', link: '/netexam/base/aboutVlan'},
-                { text: '关于STP', link: '/netexam/base/aboutStp'},
-                { text: '关于PPP', link: '/netexam/base/aboutPPP'},
-                { text: '关于GARP', link: '/netexam/base/aboutGarp'}
+                { text: '网络概述', link: '/netexam/base/aboutIp' },
+                { text: 'VRP基础', link: '/netexam/base/aboutRoute'},
+                { text: 'TCP/IP协议', link: '/netexam/base/aboutSwitche'},
+                { text: '交换', link: '/netexam/base/aboutVlan'},
+                { text: '交换机工作原理', link: '/netexam/base/aboutStp'},
+                { text: 'VLAN', link: '/netexam/base/aboutPPP'},
+                { text: 'GVRP', link: '/netexam/base/aboutGarp'},
+                { text: 'STP', link: '/netexam/base/aboutSwitche'},
+                { text: 'DHCP', link: '/netexam/base/aboutVlan'},
+                { text: 'ACL', link: '/netexam/base/aboutStp'},
+                { text: 'NAT', link: '/netexam/base/aboutPPP'},
+                { text: '路由', link: '/netexam/base/aboutGarp'}
             ],
         },
         {
-            text: 'Linux（Ubuntu）',
-            collapsible: true,    //是不是可以动态展开
-            collapsed: true,      //默认是不是展开
-            items: []
+            text: 'HCIP（华为数通中级认证）',
+            collapsed: true,
+            items: [
+                { text: '认识网络设备', link: '/netexam/base/aboutIp' },
+                { text: 'IP路由基础', link: '/netexam/base/aboutRoute'},
+                { text: 'OSPF基础', link: '/netexam/base/aboutSwitche'},
+                { text: 'OSPF路由计算', link: '/netexam/base/aboutVlan'},
+                { text: 'OSPF特殊区域以其他特性', link: '/netexam/base/aboutStp'},
+                { text: 'IS-IS原理与配置', link: '/netexam/base/aboutPPP'},
+                { text: 'BGP基础', link: '/netexam/base/aboutGarp'},
+                { text: 'BGP路径属性与路由反射器', link: '/netexam/base/aboutSwitche'},
+                { text: 'BGP路由优选', link: '/netexam/base/aboutVlan'},
+                { text: 'BGP EVPN基础', link: '/netexam/base/aboutStp'},
+                { text: '路由策略与路由控制', link: '/netexam/base/aboutPPP'},
+                { text: '流量过滤与转发路径控制', link: '/netexam/base/aboutGarp'}
+            ],
         }
     ],
 
