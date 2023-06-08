@@ -2,7 +2,7 @@
 title: 数据结构基本概念
 ---
 
-# {{$frontmatter.title}}
+# {{$frontmatter.title}} <img src="https://gaidocs.oss-cn-hangzhou.aliyuncs.com/intenet/202305171011736.png" width="46" height="46" alt="图片描述" style="display:inline; margin-bottom: -6px"/>
 
 ::: tip 
 

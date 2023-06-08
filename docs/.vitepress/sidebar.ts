@@ -188,7 +188,7 @@ export default {
             collapsed: true,
             items: [
                 { text: '简介', link: '/scattered/dataStruct/'},
-                { text: '复习c++', link: '/scattered/dataStruct/cpp' },
+                { text: '复习c++', link: '/scattered/dataStruct/cpp2' },
                 { text: '数据结构基本概念', link: '/scattered/dataStruct/concept' },
                 { text: '线性表', link: '/scattered/dataStruct/Linear' },
                 { text: '数组和矩阵', link: '/scattered/dataStruct/array' },
@@ -216,7 +216,7 @@ export default {
                 { text: '数据库系统', link: '/scattered/softtest/database'},
                 { text: '计算机网络', link: '/scattered/softtest/net'},
                 { text: '数据结构与算法', link: '/scattered/softtest/computercom'},
-                { text: '程序设计语言', link: '/scattered/softtest/computercom'},
+                { text: '程序设计语言', link: '/scattered/softtest/cpp'},
                 { text: '法律法规', link: '/scattered/softtest/regulations'},
                 { text: '标准化', link: '/scattered/softtest/standardization' },
                 { text: '多媒体基础', link: '/scattered/softtest/multimedia'},
@@ -263,6 +263,19 @@ export default {
                 { text: 'BGP EVPN基础', link: '/netexam/base/aboutStp'},
                 { text: '路由策略与路由控制', link: '/netexam/base/aboutPPP'},
                 { text: '流量过滤与转发路径控制', link: '/netexam/base/aboutGarp'}
+            ],
+        },
+        {
+            text: '深度学习（python）',
+            collapsed: true,
+            items: [
+                { text: '机器学习和深度学习综述', link: '/scattered/deeplearn/Overview' },
+                { text: '使用Python和NumPy构建神经网络模型', link: '/netexam/base/aboutRoute'},
+                { text: 'NumPy介绍', link: '/netexam/base/aboutSwitche'},
+                { text: '一个案例吃透深度学习（上）', link: '/netexam/base/aboutVlan'},
+                { text: '一个案例吃透深度学习（中）', link: '/netexam/base/aboutStp'},
+                { text: '一个案例吃透深度学习（下）', link: '/netexam/base/aboutPPP'},
+                { text: '卷积神经网络基础', link: '/netexam/base/aboutGarp'},
             ],
         }
     ],
